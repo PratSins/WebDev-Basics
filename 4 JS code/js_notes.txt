@@ -1,0 +1,43 @@
+u can use console in inspect element
+> alert("Hello"+2+" fdgidfhg");
+
+> typeof(23)
+"number"
+"tring"
+"boolean"
+
+var x = prompt("") --- input taking
+
+
+var name = "Angela";
+name.length;
+> 6
+
+
+var x = Math.random()
+x = Math.floor(x)
+
+
+===    Is equal to
+!==    Is not equal to
+>      Is greater than
+<      Is lesser than
+>=     Is greater or equal to
+<=     Is lesser or equal to
+
+&&     AND
+||     OR
+!      not
+
+HTML DOM Style Object
+    https://www.w3schools.com/jsref/dom_obj_style.asp
+
+
+== vs === in javascript
+The == operator performs a loose equality comparison that performs type coercion if
+necessary to make the comparison possible. The === operator, on the other hand, performs
+a strict equality comparison that does not perform type coercion and requires the operands to
+have the same type (as well as the same value).
+
+1 == '1'  -- True
+1 === '1'  -- False

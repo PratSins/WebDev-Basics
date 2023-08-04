@@ -1,0 +1,58 @@
+body {
+    background-color: #EAF6F6;
+}
+
+hr{
+    /* border-style: none; */
+    /* border-style: dotted none none; */
+    /* 
+        default border-style for <hr> is inset 
+        Check Default CSS settings of your browser
+    */
+
+    border-style: none;
+    border-top-style: dotted;
+    /* background-color: rgb (159, 22, 213); */
+    border-color: rgb(159, 22, 213);
+    /* height: 20px; */
+    /* height: 10%; ----> DOESN'T WORK*/
+
+    /* width: 100px; */
+    border-width: 10px;
+    width: 30%; /* ---> Use % over px*/
+}
+
+img {
+    height: 220PX;
+    width: 220px;
+}
+
+h1{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}
+/* h3.edu
+{
+    color: black;
+} */ 
+
+.edu /* class */
+{
+    color: red;
+} 
+
+
+#ke{ /* id */
+    color: orange;
+}
+
+.contact
+{
+    color: aqua;
+}
+.c1
+{
+    color: brown;
+}
